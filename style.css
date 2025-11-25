@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.glow {
+    font-size: 48px;
+    color: #6ab4ff;
+    text-shadow: 0px 0px 20px #0099ff;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 40px;
+    color: #00b3ff;
+}
+
+.projects, .skills, .contact {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 20px rgba(0, 153, 255, 0.2);
+}
+
+.project-card h3 {
+    color: #6ab4ff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #0066cc;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0099ff;
+}
