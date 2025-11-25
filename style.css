@@ -73,3 +73,80 @@ header {
     color: #0099ff;
     text-shadow: 0 0 10px #0099ff;
 }
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #00b3ff;
+    box-shadow: 0 0 20px #0099ff;
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.highlight {
+    color: #00b3ff;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.resume-btn {
+    padding: 12px 18px;
+    background: #0066cc;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.resume-btn:hover {
+    background: #0099ff;
+}
+
+/* PROJECT THUMBNAILS */
+.project-thumbnails {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.thumb-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.thumb {
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 153, 255, 0.3);
+}
+
+/* ABOUT SECTION */
+.about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: #cccccc;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #888;
+}
