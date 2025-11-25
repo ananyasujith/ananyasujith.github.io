@@ -62,3 +62,14 @@ header {
 .btn:hover {
     background: #0099ff;
 }
+
+.contact-link {
+    color: #00b3ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    color: #0099ff;
+    text-shadow: 0 0 10px #0099ff;
+}
